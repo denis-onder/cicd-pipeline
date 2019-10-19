@@ -1,0 +1,14 @@
+{
+  "name": "cicd-pipeline",
+  "version": "1.0.0",
+  "description": "Simple CICD Pipeline",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Denis Onder",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.5.1"
+  }
+}
