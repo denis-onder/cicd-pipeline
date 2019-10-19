@@ -4,11 +4,13 @@
   "description": "Simple CICD Pipeline",
   "main": "index.js",
   "scripts": {
+    "test": "mocha",
     "start": "node ."
   },
   "author": "Denis Onder",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^6.5.1"
+    "eslint": "^6.5.1",
+    "mocha": "^6.2.2"
   }
 }
