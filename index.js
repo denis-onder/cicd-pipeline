@@ -8,7 +8,7 @@ const stopServer = err => {
 
 http
   .createServer((req, res) => {
-    res.write("Hello, world!");
+    res.write("Hello, world!\n...also gmem.");
     res.end();
   })
   .listen(port, err =>
