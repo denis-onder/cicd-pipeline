@@ -1,5 +1,5 @@
 const http = require("http");
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 const stopServer = err => {
   console.error("An error has occured!\n", err);
